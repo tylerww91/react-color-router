@@ -2,5 +2,24 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   height: 10vh;
-  background-color: cadetblue;
+  background-color: #e3b4a6;
+}
+
+.Cadet .active {
+  color: rgb(92, 109, 112);
+}
+
+.Burnished-Brown .active {
+  color: rgb(163, 119, 116);
+}
+
+.Middle-Red .active {
+  color: rgb(232, 136, 115);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(231, 227, 227);
+  font-size: 1.2em;
+  font-weight: bold;
 }

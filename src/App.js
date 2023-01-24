@@ -1,14 +1,16 @@
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header/Header.js';
+import RGB from './components/RGB/RGB';
 
 function App() {
   return (
-    <main className="App">
+    <div className="App">
+      <Header />
       <Switch>
-        <Route path="/RBG/:R/:G/:B" component={Header} />
+        <Route path="/rgb/:r/:g/:b" component={RGB} />
       </Switch>
-    </main>
+    </div>
   );
 }
 
