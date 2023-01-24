@@ -1,4 +1,6 @@
 .header-nav {
-    height: 10vh;
-    background-color: cadetblue;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 10vh;
+  background-color: cadetblue;
 }
