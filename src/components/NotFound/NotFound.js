@@ -6,7 +6,7 @@ export default function NotFound() {
   return (
     <div className="not-found-container" style={{ backgroundImage: `url(${background})` }}>
       <p className="not-found-message">
-        Select one of these three colors, or enter a valid rbg into the URL
+        Select one of these three colors, or enter a valid rgb into the URL
       </p>
     </div>
   );
