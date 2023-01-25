@@ -1,0 +1,14 @@
+.not-found-container {
+  display: grid;
+  height: 934px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: auto;
+}
+
+.not-found-message {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(231, 227, 227);
+}
